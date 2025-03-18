@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/avabrun1/WebDevelopment#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
     "react": "^19.0.0"
   }
 }

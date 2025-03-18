@@ -1,13 +1,22 @@
-// just an example of a simple express app - trying to test out the container
+// Example of an API in action
 
+// setting up global variables for communication
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 5000;
+const cors = require('cors')
 
+app.use(cors());
+app.use(express.json());
+
+
+// GET - simulating gettin data
 app.get('/', (req, res) => {
-  res.send('Hello, Dockerized Node.js!');
+  const data = { message: 'Hello from the backend!'};
+  res.json(data);
 });
 
+// Prints a simple line to let you know things are working!
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
