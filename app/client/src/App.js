@@ -12,7 +12,7 @@ function App() {
       setLoading(true);
       setError(null);
       try {
-          const response = await axios.get('http://localhost:5000');
+          const response = await axios.get('http://localhost:5000/home');
           setData(response.data);
       } catch (err) {
           setError(err.message);

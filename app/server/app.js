@@ -11,7 +11,7 @@ app.use(express.json());
 
 
 // GET - simulating gettin data
-app.get('/', (req, res) => {
+app.get('/home', (req, res) => {
   const data = { message: 'Hello from the backend!'};
   res.json(data);
 });
