@@ -3,7 +3,7 @@
 // setting up global variables for communication
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = 5001;
 const cors = require('cors')
 
 app.use(cors());
@@ -15,6 +15,7 @@ app.get('/home', (req, res) => {
   const data = { message: 'Hello from the backend!'};
   res.json(data);
 });
+
 
 // Prints a simple line to let you know things are working!
 app.listen(port, () => {
