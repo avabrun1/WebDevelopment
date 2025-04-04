@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
       <footer className="footer">
-        <p>&copy; 2025 Bilingual Gaming. All rights reserved.</p>
+        <p>&copy; For inquiries, contact otapiaduenas@jcu.edu.</p>
       </footer>
     );
   }

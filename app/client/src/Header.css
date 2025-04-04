@@ -1,0 +1,36 @@
+.header {
+  background-color: #e9c95a; 
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.headerTitle {
+  margin: 0;
+  font-size: 2rem;
+  color: black;
+}
+
+.navbar {
+  margin-top: 1rem;
+}
+
+.navbarList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  /* background-color:aliceblue; */
+}
+
+.navbarList li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbarList li a:hover {
+  color: #6DBA76; 
+}
