@@ -8,7 +8,7 @@ function Header() {
       <h1 className="headerTitle">Welcome to our Bilingual Gaming Page!</h1>
       <nav className="navbar">
         <ul className="navbarList">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/home">Home</Link></li>
           <li><Link to="/game1">Game 1</Link></li>
           <li><Link to="/game2">Game 2</Link></li>
           <li><Link to="/MissionStatement">Mission Statement</Link></li>

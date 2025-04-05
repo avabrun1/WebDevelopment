@@ -10,13 +10,6 @@ app.use(cors());
 app.use(express.json());
 
 
-// GET - simulating gettin data
-app.get('/home', (req, res) => {
-  const data = { message: 'Hello from the backend!'};
-  res.json(data);
-});
-
-
 // Prints a simple line to let you know things are working!
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
