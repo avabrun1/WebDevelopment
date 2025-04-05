@@ -10,6 +10,39 @@
   color: black;
 }
 
+.languageSelector {
+  flex: 1;
+  height: 300px;
+  border-radius: 12px;
+  background-color: #c7d3db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.languageSelector button{
+  flex: 1;
+  height: 25px;
+  border-radius: 12px;
+  background-color: #c7d3db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.languageSelector button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
 .navbar {
   margin-top: 1rem;
 }
@@ -34,3 +67,4 @@
 .navbarList li a:hover {
   color: #6DBA76; 
 }
+

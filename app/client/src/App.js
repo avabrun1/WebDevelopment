@@ -2,6 +2,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { LanguageProvider } from './LanguageContext';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -17,10 +18,18 @@ function Game2() {
 }
 
 function App() {
+
+  const [currentLanguage, setCurrentLanguage] = React.useState("english"); // This will be set based on user selection
+  
+  const switchLanguage = () => {
+    setCurrentLanguage((prevLanguage) => (prevLanguage === "english" ? "spanish" : "english"));
+  };
+
   return (
+    <LanguageProvider>
     <Router>
       <div className="appContainer">
-        <Header />
+        <Header currentLanguage={currentLanguage} toggleLanguage={switchLanguage} />
         <main className="mainContent">
           <Routes>
             <Route path="/home" element={<Home />} />
@@ -32,6 +41,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </LanguageProvider>
   );
 }
 
