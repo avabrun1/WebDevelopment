@@ -32,9 +32,9 @@ function App() {
         <Header currentLanguage={currentLanguage} toggleLanguage={switchLanguage} />
         <main className="mainContent">
           <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/game1" element={<Game1 />} />
-            <Route path="/game2" element={<Game2 />} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/Game1" element={<Game1 />} />
+            <Route path="/Game2" element={<Game2 />} />
             <Route path="/MissionStatement" element={<MissionStatement />} />
           </Routes>
         </main>
