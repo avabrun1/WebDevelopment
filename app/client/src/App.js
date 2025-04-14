@@ -8,14 +8,8 @@ import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
 import MissionStatement from './MissionStatement';
-
-function Game1() {
-  return <h2>This is Game 1</h2>;
-}
-
-function Game2() {
-  return <h2>This is Game 2</h2>;
-}
+import Game1 from './Game1'
+import Game2 from './Game2'
 
 function App() {
 
