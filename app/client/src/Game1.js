@@ -11,10 +11,11 @@ function Game1() {
 
   return(
     <div>
-        <h2>Word Block</h2>
-        <p>Prevent the falling words from reaching the ground by typing them before they land!</p>
+        <h2>{text[currentLanguage].game1.name}</h2>
+        <p>{text[currentLanguage].game1.description}</p>
+        <p>{text[currentLanguage].game1.instructions}</p>
+        <p>{text[currentLanguage].game1.scoring}</p>
     </div>
-
   )
 }
 

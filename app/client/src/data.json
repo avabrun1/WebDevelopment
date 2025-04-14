@@ -19,6 +19,21 @@
             "game1": "Word Box",
             "game2": "Word Search",
             "click": "Click here to play!"
+        },
+
+        "game1": {
+            "name": "Word Block",
+            "description": "Prevent the falling words from reaching the ground by typing them before they land!",
+            "instructions": "Words will fall from the top of the screen. Type the exact word as it appears and press “Enter” to eliminate it. The faster you type, the more words you can clear.",
+            "scoring": "Earn points for every word you eliminate. Longer words give more points. The game ends if a word touches the ground. Try to beat your high score!",
+            "changeLanguage": "Spanish"
+        },
+
+        "game2": {
+            "name": "Wild Words",
+            "description": "Enter words that fit the category to the left. When you are complete, select “Generate” and the program will generate a fun story with the words you gave it!",
+            "instructions": "For each category, type a word that fits the prompt.",
+            "changeLanguage": "Spanish"
         }
     },
 
@@ -42,7 +57,21 @@
             "game1": "Caja de palabras",
             "game2": "Búsqueda de palabras",
             "click": "¡Haz clic aquí para jugar!"
+        },
 
+        "game1": {
+            "name": "Bloque de Palabras",
+            "description": "¡Evita que las palabras que caen lleguen al suelo escribiéndolas antes de que caigan!",
+            "instructions": "Las palabras caerán desde la parte superior de la pantalla. Escriba la palabra exacta tal como aparece y presione “Entrar” para eliminarla. Cuanto más rápido escribas, más palabras podrás aclarar.",
+            "scoring": "Gana puntos por cada palabra que elimines. Las palabras más largas dan más puntos. El juego termina si una palabra toca el suelo. ¡Intenta superar tu puntuación más alta!",
+            "changeLanguage": "Inglés"
+        },
+
+        "game2": {
+            "name": "Palabras Salvajes",
+            "description": "Introduzca las palabras que se ajusten a la categoría de la izquierda. Cuando hayas terminado, selecciona “Generar” y el programa generará una divertida historia con las palabras que le diste.",
+            "instructions": "Para cada categoría, escriba una palabra que se ajuste a la solicitud.",
+            "changeLanguage": "Inglés"
         }
     }
 
