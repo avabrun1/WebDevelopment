@@ -11,10 +11,10 @@ function Game2() {
 
   return(
     <div>
-        <h2>Wild Words</h2>
-        <p>Enter words that fit the category to the left. When you are complete, select “generate” and the program will generate a fun story with the words you gave it!</p>
+        <h2>{text[currentLanguage].game2.name}</h2>
+        <p>{text[currentLanguage].game2.description}</p>
+        <p>{text[currentLanguage].game2.instructions}</p>
     </div>
-
   )
 }
 
