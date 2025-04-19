@@ -1,7 +1,7 @@
 // App.js
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { LanguageProvider } from './LanguageContext';
 
 import Header from './Header';
@@ -20,22 +20,23 @@ function App() {
   };
 
   return (
-    <LanguageProvider>
     <Router>
-      <div className="appContainer">
-        <Header currentLanguage={currentLanguage} toggleLanguage={switchLanguage} />
-        <main className="mainContent">
-          <Routes>
-            <Route path="/Home" element={<Home />} />
-            <Route path="/Game1" element={<Game1 />} />
-            <Route path="/Game2" element={<Game2 />} />
-            <Route path="/MissionStatement" element={<MissionStatement />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
+      <LanguageProvider>
+        <div className="appContainer">
+          <Header currentLanguage={currentLanguage} toggleLanguage={switchLanguage} />
+          <main className="mainContent">
+            <Routes>
+              <Route path="/" element={<Navigate to="/Home" replace />} />
+              <Route path="/Home" element={<Home />} />
+              <Route path="/Game1" element={<Game1 />} />
+              <Route path="/Game2" element={<Game2 />} />
+              <Route path="/MissionStatement" element={<MissionStatement />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </LanguageProvider>
     </Router>
-    </LanguageProvider>
   );
 }
 
