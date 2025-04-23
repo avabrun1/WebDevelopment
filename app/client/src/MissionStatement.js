@@ -8,10 +8,15 @@ function MissionStatement() {
         <p>
         This webpage was made to make learning Spanish & English a fun experience for kids! Through these interactive games, kids and people of all ages can build their understanding of a language while having a good time. Our mission is to create a playful learning environment, while still encouraging curiosity and confidence in a new language. By intertwining education with entertainment, this project entices kids to explore bilingualism in a way that makes you feel like you’re playing, not work!
         </p>
+        <h2>Advisory</h2>
+        <ul>
+            <li>Dr. Osvaldo Tapia-Duenas</li>
+            <li>Chelsea Calalb</li>
+        </ul>
         <h2>Our Front End Team</h2>
         <ul>
             <li>
-            <img src="/brunerHeadshot.jpg" alt="Ava Bruner" />
+            {/* <img src="app/client/public/brunerHeadshot.jpg" alt="Ava Bruner" /> */}
             Majoring in Computer Science, <strong>Ava Bruner</strong> has gained extensive experience with a variety of programming languages and tools 
             including SQL, Java, Python, HTML, and CSS. Currently, she is serving JCU at 
             the IT Service Desk as a Hardware Technician, and Cleveland Clinic as a Software Migration Intern. 
@@ -24,6 +29,14 @@ function MissionStatement() {
             <li>
                 Thomas Richardson
             </li>
+        </ul>
+        <h2>
+            Our Back End Team
+        </h2>
+        <ul>
+            <li>Sophia Colonello</li>
+            <li>Yoni Sabag</li>
+            <li>Riley McGinty</li>
         </ul>
         </div>
     )

@@ -7,13 +7,12 @@ const LanguageContext = createContext();
 export const LanguageProvider = ({ children }) => {
   const [currentLanguage, setCurrentLanguage] = useState('english'); // Default language
 
-  // Function to toggle language
   const toggleLanguage = () => {
     setCurrentLanguage(prevLanguage => (prevLanguage === 'english' ? 'spanish' : 'english'));
   };
 
   return (
-    <LanguageContext.Provider value={{ currentLanguage, toggleLanguage }}>
+    <LanguageContext.Provider value={{ currentLanguage, toggleLanguage, setCurrentLanguage }}>
       {children}
     </LanguageContext.Provider>
   );

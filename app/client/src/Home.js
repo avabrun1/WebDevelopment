@@ -1,17 +1,42 @@
-// Home.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
-import { useLanguage } from './LanguageContext'; // Import useLanguage from LanguageContext.js
-import text from './data.json'
+import { useLanguage } from './LanguageContext'; 
+import text from './data.json';
 
- 
 function Home() {
   const navigate = useNavigate();
-  const { currentLanguage } = useLanguage(); // Use the custom hook to get the current language
+  const { currentLanguage, toggleLanguage, setCurrentLanguage } = useLanguage(); 
+  const [showModal, setShowModal] = useState(true); // Pop-up is visible initially
+
+  // Optional: prevent showing the modal again if user visits again
+  useEffect(() => {
+    const hasSelectedLanguage = localStorage.getItem('languageSelected');
+    if (hasSelectedLanguage) {
+      setShowModal(false);
+    }
+  }, []);
+
+  const handleLanguageSelect = (language) => {
+    setCurrentLanguage(language); 
+    setShowModal(false);
+    localStorage.setItem('languageSelected', 'true');
+  };
 
   return (
     <div className="homePage">
+      {/* Modal */}
+      {showModal && (
+        <div className="modalOverlay">
+          <div className="modalContent">
+            <h2>Select Your Language</h2>
+            <button onClick={() => handleLanguageSelect('english')}>English</button>
+            <button onClick={() => handleLanguageSelect('spanish')}>Español</button>
+          </div>
+        </div>
+      )}
+
+
       <h1 className="homeTitle">{text[currentLanguage].home.homeTitle}</h1>
       <p className="homeDescription">{text[currentLanguage].home.homeDescription}</p>
       <p className="homeDescription">{text[currentLanguage].home.homeDescription2}</p>

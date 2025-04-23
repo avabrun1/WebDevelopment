@@ -12,7 +12,6 @@ function Header() {
     <div className="header">
       <h1 className="headerTitle">{text[currentLanguage].header.headerTitle}</h1>
       <nav className="navbar">
-      <button className= "languageSelectorButton" onClick = {toggleLanguage}>{text[currentLanguage].header.changeLanguage}</button>
         <ul className="navbarList">
           <li><Link to="/home">{text[currentLanguage].header.home}</Link></li>
           <li><Link to="/game1">{text[currentLanguage].header.game1}</Link></li>
