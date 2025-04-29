@@ -33,27 +33,31 @@
   }
   
   .game1 {
-    background-color: #6DBA76; 
+    background-color: #ACCD7B; 
     color: white;
+    font-family: Verdana;
   }
   
   .game2 {
-    background-color: #426b89; 
+    background-color: #459FDB; 
     color: white;
+    font-family: Verdana;
   }
 
   .homeTitle {
-    color: #0a3f67; 
+    color: #0E668B; 
     font-size: 2rem;
     margin-bottom: 1rem;
     text-align: center;
+    font-family: Verdana;
   }
   
   .homeDescription {
-    color: #333;
+    color: #0E668B;
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 1rem;
+    font-family: Verdana;
   }
   .languageToggleContainer {
     position: absolute;
