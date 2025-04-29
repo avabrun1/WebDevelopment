@@ -19,6 +19,10 @@ function Game2() {
         <p>{text[currentLanguage].game2.instructions}</p>
         <h1>Scoring</h1>
         <p>{text[currentLanguage].game2.scoring}</p>
+
+        <div id="game2Area">
+
+        </div>
     </div>
   );
 }
