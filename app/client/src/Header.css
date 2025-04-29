@@ -15,32 +15,76 @@
   margin-top: 1rem;
 }
 
-.languageSelectorButton {
+
+.languageToggleSlider {
+  position: relative;
+  width: 160px; 
+  height: 50px; 
   background-color: #4CAF50; 
-  color: white; 
-  border: none; 
-  padding: 10px 20px; 
-  text-align: center; 
-  text-decoration: none;
-  display: inline-block; 
-  font-size: 16px; 
-  margin: 4px 2px; 
+  border-radius: 25px; 
+  overflow: hidden; 
   cursor: pointer; 
-  border-radius: 5px; 
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+  transition: background-color 0.3s ease; 
 }
 
-.languageSelectorButton {
-  position: absolute; /* Absolute positioning */
-  left: 10px; /* 10px from the left edge of the header */
-  top: 65px; /* 10px from the bottom edge of the header */
+.languageToggleSlider:hover {
+  background-color: #45a049; 
 }
 
-/* Hover effect */
-.languageSelectorButton:hover {
-  background-color: #45a049; /* Slightly darker green when hovered */
-  transform: scale(1.05); /* Slightly enlarge the button on hover */
+.slider-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; 
+  height: 100%;
+  background-color: white;
+  border-radius: 25px; 
+  transition: left 0.3s ease; 
+  z-index: 2; 
 }
+
+.languageToggleSlider.active .slider-button {
+  left: 50%; 
+}
+
+.languageToggleSlider .label {
+  position: absolute;
+  width: 50%; 
+  height: 100%;
+  line-height: 50px; 
+  text-align: center; 
+  font-weight: bold;
+  font-size: 18px; 
+  z-index: 3; 
+  pointer-events: none; 
+  transition: color 0.3s ease; 
+}
+
+.languageToggleSlider .label.left {
+  left: 0; 
+}
+
+.languageToggleSlider .label.right {
+  left: 50%; 
+}
+
+.languageToggleSlider:not(.active) .label.left {
+  color: #000000; /* Makes English black when active */
+}
+
+.languageToggleSlider.active .label.left {
+  color: #cccccc; /* Dims the English to gray when not active */
+}
+
+.languageToggleSlider.active .label.right {
+  color: #000000; /* Makes Spanish black when active */
+}
+
+.languageToggleSlider:not(.active) .label.right {
+  color: #cccccc; /* Dims the Spanish to gray when not active */
+}
+
+
 .navbarList {
   list-style: none;
   display: flex;
