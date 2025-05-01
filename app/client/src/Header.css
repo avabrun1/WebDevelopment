@@ -1,6 +1,6 @@
 .header {
-  background-color: #FFAF74; 
-  padding: 1.5rem 2rem;
+  background-color: #FFAF74;
+  padding: 0rem 0rem;
   text-align: center;
 }
 
@@ -13,11 +13,15 @@
 
 .navbar {
   margin-top: 1rem;
+  background-color: #ACCD7B;
+  height: 100px
 }
 
 
 .languageToggleSlider {
   position: relative;
+  top: 25px;
+  left: 30px;
   width: 200px; 
   height: 50px; 
   background-color: #669603; 
@@ -28,7 +32,7 @@
 }
 
 .languageToggleSlider:hover {
-  background-color: #45a049; 
+  background-color: #FFAF74; 
 }
 
 .slider-button {
@@ -74,7 +78,7 @@
 }
 
 .languageToggleSlider.active .label.left {
-  color: #cccccc; /* Dims the English to gray when not active */
+  color: #525252; /* Dims the English to gray when not active */
 }
 
 .languageToggleSlider.active .label.right {
@@ -82,7 +86,7 @@
 }
 
 .languageToggleSlider:not(.active) .label.right {
-  color: #cccccc; /* Dims the Spanish to gray when not active */
+  color: #525252; /* Dims the Spanish to gray when not active */
 }
 
 
@@ -91,7 +95,7 @@
   display: flex;
   justify-content: right;
   gap: 2rem;
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
   /* background-color:aliceblue; */
 }
@@ -102,9 +106,11 @@
   font-weight: 500;
   transition: color 0.3s;
   font-family: Verdana;
+  font-size: 20px;
+  padding: 20px;
 }
 
 
 .navbarList li a:hover {
-  color: #6DBA76; 
+  color: #FFAF74; 
 }
