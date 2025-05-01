@@ -22,12 +22,10 @@ function Header() {
       <nav className="navbar">
       <div
         className={`languageToggleSlider ${currentLanguage === 'spanish' ? 'active' : ''}`}
-        onClick={toggleLanguage}
-      >
+        onClick={toggleLanguage}>
         <div className="slider-button"></div>
         <span className="label left">English</span>
         <span className="label right">Español</span>
-      </div>
         <ul className="navbarList">
           <li><Link to={createLink("/home")}>{text[currentLanguage].header.home}</Link></li>
           <li><Link to={createLink("/game1")}>{text[currentLanguage].header.game1}</Link></li>

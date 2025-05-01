@@ -1,5 +1,5 @@
 .header {
-  background-color: #e9c95a; 
+  background-color: #FFAF74; 
   padding: 1.5rem 2rem;
   text-align: center;
 }
@@ -8,6 +8,7 @@
   margin: 0;
   font-size: 2rem;
   color: black;
+  font-family: Verdana;
 }
 
 .navbar {
@@ -87,7 +88,7 @@
 .navbarList {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   gap: 2rem;
   padding: 0;
   margin: 0;
@@ -99,10 +100,10 @@
   color: black;
   font-weight: 500;
   transition: color 0.3s;
+  font-family: Verdana;
 }
 
 
 .navbarList li a:hover {
   color: #6DBA76; 
 }
-
