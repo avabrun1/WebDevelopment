@@ -13,12 +13,10 @@ function Game2() {
   return(
     <div className="game2Page">
         <h2>{text[currentLanguage].game2.name}</h2>
-        <h1>Description</h1>
+        <h1>{text[currentLanguage].gameHeaders.gameHeadersDescription}</h1>
         <p>{text[currentLanguage].game2.description}</p>
-        <h1>Instructions</h1>
+        <h1>{text[currentLanguage].gameHeaders.gameHeadersInstructions}</h1>
         <p>{text[currentLanguage].game2.instructions}</p>
-        <h1>Scoring</h1>
-        <p>{text[currentLanguage].game2.scoring}</p>
 
         <div id="game2Area">
 

@@ -21,6 +21,12 @@
             "click": "Click here to play!"
         },
 
+        "gameHeaders": {
+            "gameHeadersDescription": "Description",
+            "gameHeadersInstructions": "Instructions",
+            "gameHeadersScoring": "Scoring"
+        },
+
         "game1": {
             "name": "Word Block",
             "description": "Prevent the falling words from reaching the ground by typing them before they land!",
@@ -57,6 +63,12 @@
             "game1": "Bloque de Palabras",
             "game2": "Palabras Salvajes",
             "click": "¡Haz clic aquí para jugar!"
+        },
+
+        "gameHeaders": {
+            "gameHeadersDescription": "Descripción",
+            "gameHeadersInstructions": "Instrucciones",
+            "gameHeadersScoring": "Puntuación"
         },
 
         "game1": {
