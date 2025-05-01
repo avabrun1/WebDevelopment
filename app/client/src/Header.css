@@ -18,9 +18,9 @@
 
 .languageToggleSlider {
   position: relative;
-  width: 160px; 
+  width: 200px; 
   height: 50px; 
-  background-color: #4CAF50; 
+  background-color: #669603; 
   border-radius: 25px; 
   overflow: hidden; 
   cursor: pointer; 
@@ -55,6 +55,7 @@
   text-align: center; 
   font-weight: bold;
   font-size: 18px; 
+  font-family: Verdana;
   z-index: 3; 
   pointer-events: none; 
   transition: color 0.3s ease; 

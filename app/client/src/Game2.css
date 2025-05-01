@@ -1,5 +1,5 @@
 .game2Page {
-    font-family: 'Arial', sans-serif;
+    font-family: Verdana;
     max-width: 800px; 
     margin: 40px auto; 
     padding: 20px;
@@ -10,10 +10,10 @@
   
   .game2Page h2 {
     font-size: 2rem;
-    color: #0056b3; 
+    color: #0E668B; 
     text-align: center;
     margin-bottom: 20px;
-    border-bottom: 2px solid #0056b3;
+    border-bottom: 2px solid #0E668B;
     padding-bottom: 10px;
   }
   
