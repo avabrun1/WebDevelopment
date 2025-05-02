@@ -1,10 +1,27 @@
 .footer {
     background-color: #ACCD7B;
-    color: white;
     padding: 1rem;
-    text-align: center;
-    font-size: 1rem;
+    text-align: left;
     color: black;
     font-family: Verdana;
+    font-size: 1rem;
+    display: flex;
+    gap: 1px;
   }
-  
+
+.footer div {
+  flex: .3;
+}
+
+.footer img {
+  width: 400px;
+  height: auto;
+}
+
+.jcuLink {
+  display: block;
+}
+
+.footer a {
+  padding: 10px;
+}
