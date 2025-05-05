@@ -2,8 +2,8 @@
     "english" : {
 
         "header": {
-            "headerTitle": "Welcome to our Bilingual Gaming Page!",
-            "title": "Welcome to our Bilingual Gaming Page!",
+            "headerTitle": "Welcome to LingoLeap!",
+            "title": "Welcome to LingoLeap!",
             "home": "Home",
             "game1": "Game 1",
             "game2": "Game 2",
@@ -13,7 +13,7 @@
 
         "home": {
             "missionStatementText": "This webpage was made to make learning Spanish & English a fun experience for kids! Through these interactive games, kids and people of all ages can build their understanding of a language while having a good time. Our mission is to create a playful learning environment, while still encouraging curiosity and confidence in a new language. By intertwining education with entertainment, this project entices kids to explore bilingualism in a way that makes you feel like you’re playing, not work!",
-            "homeTitle": "Welcome to our Bilingual Gaming Page!",
+            "homeTitle": "Welcome to LingoLeap!",
             "homeDescription": "This webpage was made to make learning Spanish & English a fun experience for kids! Through these interactive games, kids and people of all ages can build their understanding of a language while having a good time.",
             "homeDescription2": "Our mission is to create a playful learning environment, while still encouraging curiosity and confidence in a new language. By intertwining education with entertainment, this project entices kids to explore bilingualism in a way that feels like playing—not work!",
             "game1": "Word Block",

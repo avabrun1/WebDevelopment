@@ -11,11 +11,12 @@ function Home() {
 
   // Optional: prevent showing the modal again if user visits again
   useEffect(() => {
-    const hasSelectedLanguage = localStorage.getItem('languageSelected');
-    if (hasSelectedLanguage) {
-      setShowModal(false);
-    }
+    // REMOVE this line completely for now:
+    // const hasSelectedLanguage = localStorage.getItem('languageSelected');
+  
+    setShowModal(true); // Force it to always show
   }, []);
+  
 
   const handleLanguageSelect = (language) => {
     setCurrentLanguage(language); 
