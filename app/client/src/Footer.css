@@ -14,7 +14,7 @@
 }
 
 .footer img {
-  width: 400px;
+  width: 270px;
   height: auto;
 }
 
@@ -24,4 +24,5 @@
 
 .footer a {
   padding: 10px;
+  color: #0E668B;
 }

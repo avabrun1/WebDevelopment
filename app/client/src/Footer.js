@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import jcu_logo from './assets/jcu_logo.jpg'
+import jcu_logo from './assets/jcu_logo.png'
 
 
 
