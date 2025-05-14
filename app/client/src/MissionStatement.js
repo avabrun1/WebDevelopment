@@ -2,7 +2,7 @@ import React from 'react';
 import './MissionStatement.css';
 import ava from './assets/brunerHeadshot.jpg';
 import chelsea from './assets/calalbHeadshot.pdf';
-import sophia from './assets/colonelloHeadshot.pdf';
+import sophia from './assets/colonelloHeadshot.png';
 import yoni from './assets/sabagHeadshot.webp';
 import riley from './assets/mcgintyHeadshot.jpg';
 import tad from './assets/salwanHeadshot.jpeg';
@@ -51,7 +51,11 @@ function MissionStatement() {
             </h2>
             <ul>
                 <li>
-                    Sophia Colonello</li>
+                    <img src={sophia} alt="Sophia Colonello" className="missionStatementPhotos" />
+                    <p><strong>Sophia Colonello</strong> is a senior Computer Science major and Data Science minor at John Carroll Unviersity. She has been a TA/Grader for the MCDS Department the past four years, been involved
+                    in the COMAP Math Modeling Competition for two years, and was involved in undergraduate research of The Mechanisms of Weight Transformations in Black Box Neural Networks her senior year. Her professional experience within software development as an Applied Technology Intern at PGT Trucking Inc.,
+                    and data analytics experience as a Data Analyst Intern at MSA Safety has provided a variety of technical learning opportunities. She has experience with languages such as Java, JavaScript/Typescript, Python, and SQL, and other technologies such as GitHub, Copilot, Postman, and Power BI.</p>
+                </li>
                 <li>
                     <img src={yoni} alt="Yoni Sabag" className="missionStatementPhotos" />
                     Yoni Sabag</li>
