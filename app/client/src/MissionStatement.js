@@ -4,7 +4,7 @@ import ava from './assets/brunerHeadshot.jpg';
 import chelsea from './assets/calalbHeadshot.pdf';
 import sophia from './assets/colonelloHeadshot.pdf';
 import yoni from './assets/sabagHeadshot.webp';
-import riley from './assets/mcgintyHeadshot.pdf';
+import riley from './assets/mcgintyHeadshot.jpg';
 import tad from './assets/salwanHeadshot.jpeg';
 import thomas from './assets/richardsonHeadshot.jpeg';
 
