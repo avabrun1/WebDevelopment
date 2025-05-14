@@ -55,7 +55,11 @@ function MissionStatement() {
                 <li>
                     <img src={yoni} alt="Yoni Sabag" className="missionStatementPhotos" />
                     Yoni Sabag</li>
-                <li>Riley McGinty</li>
+                <li>
+                    <img src={riley} alt="Riley McGinty" className="missionStatementPhotos" />
+                    <p><strong>Riley McGinty</strong> is a second year Computer Science major, with a minor in Economics, at John Carroll University. He has expereince in programming
+                    with Python, Java, Javascript, and SQL. He is a Resident Assitant and Student Worker at JCU, as well as being involved in multiple organizations.</p>
+                </li>
             </ul>
         </div>
     )
