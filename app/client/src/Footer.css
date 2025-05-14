@@ -13,16 +13,18 @@
   flex: .3;
 }
 
-.footer img {
+.footerImage {
   width: 270px;
   height: auto;
 }
 
 .jcuLink {
   display: block;
+  padding: 10px;
+  color: #0E668B;
 }
 
-.footer a {
-  padding: 10px;
+.socialLink {
+  padding-right: 15px;
   color: #0E668B;
 }
